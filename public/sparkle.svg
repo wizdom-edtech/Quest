@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg height="600.0" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="-0.0 -0.0 600.0 600.0" width="600.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+><filter id="a" xlink:actuate="onLoad" xlink:show="other" xlink:type="simple"
+  ><feGaussianBlur stdDeviation="12"
+  /></filter
+  ><g filter="url(#a)"
+  ><radialGradient cx="300" cy="300" gradientUnits="userSpaceOnUse" id="b" r="250" xlink:actuate="onLoad" xlink:show="other" xlink:type="simple"
+    ><stop offset="0" stop-color="#f8a348"
+      /><stop offset="1" stop-color="#f60cd7"
+    /></radialGradient
+    ><path d="M550,300c-236.842-7.267-242.733-13.158-250-250c-7.267,236.842-13.158,242.733-250,250 c236.842,7.267,242.733,13.158,250,250C307.267,313.158,313.158,307.267,550,300z" fill="url(#b)"
+  /></g
+></svg
+>
