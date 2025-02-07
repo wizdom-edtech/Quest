@@ -48,7 +48,7 @@ export default function SearchPage() {
 
   return (
     <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-2xl mx-auto text-center mb-12">
+      <div className="w-full max-w-3xl mx-auto text-center mb-12">
         <div className="relative mb-16">
           <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl"></div>
           <div className="absolute -top-16 left-1/4 w-32 h-32 bg-cyan-500/20 rounded-full blur-2xl"></div>
@@ -70,21 +70,21 @@ export default function SearchPage() {
           </div>
         </div>
 
-        <div className="relative mb-12">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 via-pink-500/20 to-cyan-500/20 blur-xl"></div>
+        <div className="relative mb-12 w-[800px]">
+          <div className="absolute w-full  bg-gradient-to-r from-purple-500/20 via-pink-500/20 to-cyan-500/20 blur-xl"></div>
           <input
             type="text"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
             placeholder="What do you want to learn about?"
-            className="w-full px-8 py-5 bg-gray-900/50 border-2 border-gray-800 rounded-2xl focus:outline-none focus:border-purple-500 text-lg placeholder-gray-400 backdrop-blur-sm"
+            className="w-full px-8 py-5 bg-gray-900/50 border-2 border-gray-800 rounded-2xl focus:outline-none focus:border-purple-500 text-3xl placeholder-gray-400 backdrop-blur-sm"
           />
           <button
             onClick={generateVideo}
             className="absolute right-3 top-1/2 -translate-y-1/2 px-6 py-3 bg-gradient-to-r from-purple-600 via-pink-600 to-cyan-600 rounded-xl hover:opacity-90 transition-all duration-300 shadow-lg hover:shadow-purple-500/25 flex items-center space-x-3 group"
           >
             <Wand className="w-5 h-5 text-purple-200" />
-            <span>Generate</span>
+            <span className="text-3xl">Generate</span>
             <Play className="w-5 h-5 text-purple-200 transform group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
