@@ -62,7 +62,7 @@ const LandingPage = () => {
 
         <div className="relative flex justify-center space-x-6 mt-5">
         <button
-          onClick={() => navigate("/dashboard")}
+          onClick={() => navigate("/explore")}
           className="flex items-center space-x-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-cyan-500 rounded-xl hover:opacity-90 transition-all duration-300 shadow-lg hover:shadow-purple-500/25"
         >
           <Wand className="w-5 h-5 text-purple-300" />
